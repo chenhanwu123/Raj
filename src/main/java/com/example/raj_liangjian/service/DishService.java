@@ -11,4 +11,6 @@ public interface DishService extends IService<Dish> {
     void removeImgFile(Long[] ids);
 
     boolean updateStatus(int status, Long[] ids);
+
+    void updateWithFlavor(DishDto dishDto);
 }
