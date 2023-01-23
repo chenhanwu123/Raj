@@ -54,8 +54,8 @@ public class DishController {
     public R<String> AddDish(@RequestBody DishDto dishDto) {
         dishService.AddDish(dishDto);
         /*//清空某个分类下面的菜品缓存
-        String key = "dish_" + dishDto.getCategoryId() + "_1";
-        redisTemplate.delete(key);*/
+        String key = "dish_" + dishDto.getCategoryId() + "_1";*/
+        redisTemplate.delete(key);
         return R.success("添加菜品成功");
     }
 
