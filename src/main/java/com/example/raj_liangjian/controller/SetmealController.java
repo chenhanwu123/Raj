@@ -116,7 +116,7 @@ public class SetmealController {
     }
 
     /**
-     * 通过id更改状态
+     * 通过id更改状态.
      * @param status
      * @param ids
      * @return

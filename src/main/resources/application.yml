@@ -22,7 +22,7 @@ spring:
     url: jdbc:mysql:///reggie?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
     username: root
     password: 1234
-    #springCache过期时间redis
+    #springCache过期时间redis.
   cache:
     redis:
       time-to-live: 1800000 #设置过期时间
