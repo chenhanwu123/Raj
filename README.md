@@ -22,7 +22,7 @@
 
 ## 三. 技术架构
 
-![ecd6c7834c37419c81b7c04f06ad74ca](C:\Users\15771\Desktop\新建文件夹\ecd6c7834c37419c81b7c04f06ad74ca.png)
+![ecd6c7834c37419c81b7c04f06ad74ca](README/ecd6c7834c37419c81b7c04f06ad74ca.png)
 
 项目属于前后端分离，前端使用H5页面以及vue框架构建页面，或者使用微信小程序开发。
 
@@ -34,7 +34,7 @@
 
 ## 四. 功能描述
 
-![37914c51109e40a88e2fbf111d4c5656](C:\Users\15771\Desktop\新建文件夹\37914c51109e40a88e2fbf111d4c5656.png)
+![37914c51109e40a88e2fbf111d4c5656](README/37914c51109e40a88e2fbf111d4c5656.png)
 
  移动端前台主要是使用H5页面以及微信小程序搭建前端页面，主要功能有：
 
@@ -63,8 +63,8 @@
 C端用户：登录应用，点餐，下单。
 **附录：项目成果图展示**
 
-![20f6a92f8cff4b5b9d93e38dd13c69b3](C:\Users\15771\Desktop\新建文件夹\20f6a92f8cff4b5b9d93e38dd13c69b3.png)
+![20f6a92f8cff4b5b9d93e38dd13c69b3](README/20f6a92f8cff4b5b9d93e38dd13c69b3.png)
 
-![9308f8d4050145e494f98bf54855e36c](C:\Users\15771\Desktop\新建文件夹\9308f8d4050145e494f98bf54855e36c.png)
+![9308f8d4050145e494f98bf54855e36c](README/9308f8d4050145e494f98bf54855e36c.png)
 
-![51558d94a5dd4e24bd272d6dbbd1304a](C:\Users\15771\Desktop\新建文件夹\51558d94a5dd4e24bd272d6dbbd1304a.png)
+![51558d94a5dd4e24bd272d6dbbd1304a](README/51558d94a5dd4e24bd272d6dbbd1304a.png)
