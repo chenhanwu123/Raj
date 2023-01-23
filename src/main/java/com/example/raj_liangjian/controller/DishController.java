@@ -40,8 +40,7 @@ public class DishController {
     SetmealService setmealService;
     @Autowired
     RedisTemplate redisTemplate;
-    @Autowired
-    CacheManager cacheManager;
+
 
     /**
      * 添加菜品
@@ -53,9 +52,9 @@ public class DishController {
     @PostMapping
     public R<String> AddDish(@RequestBody DishDto dishDto) {
         dishService.AddDish(dishDto);
-        /*//清空某个分类下面的菜品缓存
+        //清空某个分类下面的菜品缓存
         String key = "dish_" + dishDto.getCategoryId() + "_1";
-        redisTemplate.delete(key);*/
+        redisTemplate.delete(key);
         return R.success("添加菜品成功");
     }
 
