@@ -4,6 +4,8 @@ package com.example.raj_liangjian.dto;
 import com.example.raj_liangjian.entity.Dish;
 import com.example.raj_liangjian.entity.DishFlavor;
 import lombok.Data;
+
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 

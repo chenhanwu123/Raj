@@ -22,12 +22,18 @@ spring:
     url: jdbc:mysql:///reggie?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
     username: root
     password: 1234
-#Redis
+    #springCache过期时间redis
+  cache:
+    redis:
+      time-to-live: 1800000 #设置过期时间
+  #Redis
   redis:
     host: 43.139.107.194
     port: 6379
     password: 123456
     database: 0
+
+
 
 #上传文件配置
 Raj:

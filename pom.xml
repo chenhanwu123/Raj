@@ -19,6 +19,11 @@
     </properties>
 
     <dependencies>
+        <!--spring-cache redis-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-cache</artifactId>
+        </dependency>
         <!--短信-->
         <dependency>
             <groupId>com.aliyun</groupId>

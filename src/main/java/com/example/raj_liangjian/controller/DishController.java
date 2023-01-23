@@ -10,6 +10,8 @@ import com.example.raj_liangjian.service.*;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.CacheManager;
+import org.springframework.cache.annotation.CachePut;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
@@ -38,6 +40,8 @@ public class DishController {
     SetmealService setmealService;
     @Autowired
     RedisTemplate redisTemplate;
+    @Autowired
+    CacheManager cacheManager;
 
     /**
      * 添加菜品
@@ -45,12 +49,13 @@ public class DishController {
      * @param dishDto
      * @return
      */
+
     @PostMapping
     public R<String> AddDish(@RequestBody DishDto dishDto) {
         dishService.AddDish(dishDto);
-        //清空某个分类下面的菜品缓存
+        /*//清空某个分类下面的菜品缓存
         String key = "dish_" + dishDto.getCategoryId() + "_1";
-        redisTemplate.delete(key);
+        redisTemplate.delete(key);*/
         return R.success("添加菜品成功");
     }
 
